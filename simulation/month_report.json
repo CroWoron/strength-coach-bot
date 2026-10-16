@@ -1,0 +1,193 @@
+{
+  "success": false,
+  "requested_sessions": 12,
+  "completed_sessions": 3,
+  "safely_aborted_sessions": 1,
+  "recorded_sets": 44,
+  "program_days": 3,
+  "program": {
+    "id": 1,
+    "user_id": 1,
+    "version": 1,
+    "status": "active",
+    "title": "Сила и мощность для боксёра, 3 дня",
+    "rationale": "Три дня: два силовых и один короткий взрывной. Силовые — тяжёлые подходы 4–6 повторов с RIR 2 и отдыхом 2–3 мин; мощность — мало повторов, качество и скорость, без отказа. Объём ≤12 рабочих подходов в день, чтобы не мешать боксу.",
+    "created_at": 1767603600,
+    "activated_at": 1767603600,
+    "days": [
+      {
+        "name": "A — нижняя сила",
+        "exercises": [
+          {
+            "exercise": "присед",
+            "sets": 4,
+            "reps_min": 4,
+            "reps_max": 5,
+            "target_rir": 2,
+            "rest_sec": 180,
+            "load_kg": 100,
+            "substitutions": [
+              "присед со штангой на спине",
+              "фронтальный присед"
+            ]
+          },
+          {
+            "exercise": "жим лёжа",
+            "sets": 4,
+            "reps_min": 4,
+            "reps_max": 5,
+            "target_rir": 2,
+            "rest_sec": 180,
+            "load_kg": 80,
+            "substitutions": [
+              "жим лёжа гантелями"
+            ]
+          },
+          {
+            "exercise": "подтягивания с весом",
+            "sets": 3,
+            "reps_min": 5,
+            "reps_max": 6,
+            "target_rir": 2,
+            "rest_sec": 150,
+            "load_kg": 15,
+            "substitutions": [
+              "тяга в наклоне"
+            ]
+          },
+          {
+            "exercise": "румынская тяга",
+            "sets": 1,
+            "reps_min": 6,
+            "reps_max": 8,
+            "target_rir": 2,
+            "rest_sec": 150,
+            "load_kg": null,
+            "substitutions": [
+              "становая на прямых ногах"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B — верхняя сила",
+        "exercises": [
+          {
+            "exercise": "жим лёжа",
+            "sets": 4,
+            "reps_min": 4,
+            "reps_max": 5,
+            "target_rir": 2,
+            "rest_sec": 180,
+            "load_kg": 80,
+            "substitutions": [
+              "жим гантелями"
+            ]
+          },
+          {
+            "exercise": "подтягивания с весом",
+            "sets": 4,
+            "reps_min": 5,
+            "reps_max": 6,
+            "target_rir": 2,
+            "rest_sec": 150,
+            "load_kg": 15,
+            "substitutions": [
+              "тяга верхнего блока"
+            ]
+          },
+          {
+            "exercise": "присед",
+            "sets": 3,
+            "reps_min": 5,
+            "reps_max": 6,
+            "target_rir": 2,
+            "rest_sec": 180,
+            "load_kg": 95,
+            "substitutions": [
+              "присед со штангой"
+            ]
+          },
+          {
+            "exercise": "жим стоя",
+            "sets": 1,
+            "reps_min": 6,
+            "reps_max": 8,
+            "target_rir": 2,
+            "rest_sec": 150,
+            "load_kg": null,
+            "substitutions": [
+              "жим гирь стоя"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C — короткая мощность",
+        "exercises": [
+          {
+            "exercise": "прыжок на тумбу",
+            "sets": 4,
+            "reps_min": 3,
+            "reps_max": 3,
+            "target_rir": null,
+            "rest_sec": 90,
+            "load_kg": null,
+            "substitutions": [
+              "выпрыгивания"
+            ]
+          },
+          {
+            "exercise": "бросок медбола вверх",
+            "sets": 4,
+            "reps_min": 3,
+            "reps_max": 3,
+            "target_rir": null,
+            "rest_sec": 90,
+            "load_kg": null,
+            "substitutions": [
+              "бросок медбола в стену"
+            ]
+          },
+          {
+            "exercise": "рывок гири одной рукой",
+            "sets": 3,
+            "reps_min": 3,
+            "reps_max": 3,
+            "target_rir": null,
+            "rest_sec": 120,
+            "load_kg": null,
+            "substitutions": [
+              "махи гирей"
+            ]
+          },
+          {
+            "exercise": "становая",
+            "sets": 1,
+            "reps_min": 3,
+            "reps_max": 3,
+            "target_rir": 2,
+            "rest_sec": 180,
+            "load_kg": 110,
+            "substitutions": [
+              "тяга с плинтов"
+            ]
+          }
+        ]
+      }
+    ],
+    "evidence_ids": [
+      "ACSM_2026_RT",
+      "PELLAND_2026_VOLUME_FREQUENCY",
+      "ROBINSON_2024_RIR",
+      "GRGIC_2018_REST",
+      "SCHUMANN_2022_CONCURRENT"
+    ]
+  },
+  "failed_actions": 11,
+  "total_actions": 121,
+  "safety_violations": [],
+  "schedule_violations": [],
+  "invalid_evidence_ids": [],
+  "excessive_program_days": []
+}

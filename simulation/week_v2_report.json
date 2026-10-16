@@ -1,0 +1,197 @@
+{
+  "success": true,
+  "requested_sessions": 3,
+  "completed_sessions": 3,
+  "safely_aborted_sessions": 0,
+  "recorded_sets": 36,
+  "program_days": 3,
+  "program": {
+    "id": 1,
+    "user_id": 1,
+    "version": 1,
+    "status": "active",
+    "title": "Сила и мощность для боксёра, 3 дня",
+    "rationale": "Приоритетные тяжёлые движения стоят первыми. Становая и подтягивания с весом пересекаются по хвату, широчайшим и корпусу, поэтому в день B их объём снижен, а жим лёжа ограничен. Взрывная работа — в начале дня C, мало повторов, полное восстановление. При трёх боксах объём в зале не выше 12 рабочих подходов в день.",
+    "created_at": 1767603600,
+    "activated_at": 1767603600,
+    "days": [
+      {
+        "name": "A — присед + жим",
+        "exercises": [
+          {
+            "exercise": "присед",
+            "sets": 3,
+            "reps_min": 4,
+            "reps_max": 5,
+            "target_rir": 2,
+            "rest_sec": 180,
+            "load_kg": 100,
+            "fixed_load": false,
+            "substitutions": [
+              "присед со штангой на груди"
+            ]
+          },
+          {
+            "exercise": "жим лёжа",
+            "sets": 3,
+            "reps_min": 4,
+            "reps_max": 5,
+            "target_rir": 2,
+            "rest_sec": 180,
+            "load_kg": 80,
+            "fixed_load": false,
+            "substitutions": [
+              "жим лёжа с паузой"
+            ]
+          },
+          {
+            "exercise": "подтягивания с весом",
+            "sets": 3,
+            "reps_min": 5,
+            "reps_max": 6,
+            "target_rir": 2,
+            "rest_sec": 150,
+            "load_kg": 15,
+            "fixed_load": false,
+            "substitutions": [
+              "тяга в наклоне"
+            ]
+          },
+          {
+            "exercise": "медбол 5 кг бросок в стену",
+            "sets": 3,
+            "reps_min": 4,
+            "reps_max": 5,
+            "target_rir": null,
+            "rest_sec": 90,
+            "load_kg": 5,
+            "fixed_load": true,
+            "substitutions": []
+          }
+        ]
+      },
+      {
+        "name": "B — становая + жим",
+        "exercises": [
+          {
+            "exercise": "становая",
+            "sets": 3,
+            "reps_min": 3,
+            "reps_max": 4,
+            "target_rir": 2,
+            "rest_sec": 210,
+            "load_kg": 120,
+            "fixed_load": false,
+            "substitutions": [
+              "становая с паузой у колена"
+            ]
+          },
+          {
+            "exercise": "жим лёжа",
+            "sets": 3,
+            "reps_min": 5,
+            "reps_max": 6,
+            "target_rir": 2,
+            "rest_sec": 180,
+            "load_kg": 77.5,
+            "fixed_load": false,
+            "substitutions": [
+              "жим гантелей"
+            ]
+          },
+          {
+            "exercise": "подтягивания с весом",
+            "sets": 3,
+            "reps_min": 5,
+            "reps_max": 6,
+            "target_rir": 2,
+            "rest_sec": 150,
+            "load_kg": 12.5,
+            "fixed_load": false,
+            "substitutions": [
+              "тяга в наклоне"
+            ]
+          },
+          {
+            "exercise": "гиря 24 кг мах",
+            "sets": 3,
+            "reps_min": 6,
+            "reps_max": 8,
+            "target_rir": null,
+            "rest_sec": 90,
+            "load_kg": 24,
+            "fixed_load": true,
+            "substitutions": []
+          }
+        ]
+      },
+      {
+        "name": "C — короткая взрывная",
+        "exercises": [
+          {
+            "exercise": "запрыгивания на тумбу",
+            "sets": 3,
+            "reps_min": 3,
+            "reps_max": 3,
+            "target_rir": null,
+            "rest_sec": 90,
+            "load_kg": null,
+            "fixed_load": false,
+            "substitutions": [
+              "выпрыгивания из приседа"
+            ]
+          },
+          {
+            "exercise": "медбол 5 кг бросок в стену",
+            "sets": 4,
+            "reps_min": 4,
+            "reps_max": 5,
+            "target_rir": null,
+            "rest_sec": 90,
+            "load_kg": 5,
+            "fixed_load": true,
+            "substitutions": []
+          },
+          {
+            "exercise": "гиря 16 кг мах",
+            "sets": 3,
+            "reps_min": 8,
+            "reps_max": 10,
+            "target_rir": null,
+            "rest_sec": 75,
+            "load_kg": 16,
+            "fixed_load": true,
+            "substitutions": []
+          },
+          {
+            "exercise": "присед",
+            "sets": 2,
+            "reps_min": 3,
+            "reps_max": 3,
+            "target_rir": 3,
+            "rest_sec": 180,
+            "load_kg": 90,
+            "fixed_load": false,
+            "substitutions": []
+          }
+        ]
+      }
+    ],
+    "evidence_ids": [
+      "ACSM_2026_RT",
+      "PELLAND_2026_VOLUME_FREQUENCY",
+      "ROBINSON_2024_RIR",
+      "GRGIC_2018_REST",
+      "NUNES_2021_EXERCISE_ORDER",
+      "CLEMENTE_2023_PLYOMETRIC",
+      "SCHUMANN_2022_CONCURRENT",
+      "VARELA_2025_ACUTE_FATIGUE"
+    ]
+  },
+  "failed_actions": 0,
+  "total_actions": 16,
+  "safety_violations": [],
+  "schedule_violations": [],
+  "invalid_evidence_ids": [],
+  "excessive_program_days": []
+}

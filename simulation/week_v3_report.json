@@ -1,0 +1,209 @@
+{
+  "success": true,
+  "requested_sessions": 3,
+  "completed_sessions": 3,
+  "safely_aborted_sessions": 0,
+  "recorded_sets": 32,
+  "program_days": 3,
+  "program": {
+    "id": 1,
+    "user_id": 1,
+    "version": 1,
+    "status": "active",
+    "title": "Сила и мощность для боксёра: 3 дня",
+    "rationale": "Понедельник — присед первым, жим и подтягивания умеренно. Среда — становая первым, жим и подтягивания снижены, чтобы не перегружать поясницу и хват. Пятница короткая: взрывные упражнения в начале, пока свежий; при тяжёлом спарринге в субботу объём пятницы урезается. Всего 14-15 рабочих подходов в день, что укладывается в лимит при трёх боксёрских сессиях.",
+    "created_at": 1767603600,
+    "activated_at": 1767603600,
+    "days": [
+      {
+        "name": "A — силовая (низ + жим)",
+        "exercises": [
+          {
+            "exercise": "присед",
+            "sets": 3,
+            "reps_min": 4,
+            "reps_max": 5,
+            "target_rir": 2,
+            "rest_sec": 180,
+            "load_kg": 100,
+            "fixed_load": false,
+            "substitutions": [
+              "присед со штангой на груди"
+            ]
+          },
+          {
+            "exercise": "жим лёжа",
+            "sets": 4,
+            "reps_min": 4,
+            "reps_max": 5,
+            "target_rir": 2,
+            "rest_sec": 180,
+            "load_kg": 80,
+            "fixed_load": false,
+            "substitutions": [
+              "жим лёжа с паузой"
+            ]
+          },
+          {
+            "exercise": "подтягивания с весом",
+            "sets": 2,
+            "reps_min": 5,
+            "reps_max": 6,
+            "target_rir": 3,
+            "rest_sec": 150,
+            "load_kg": 15,
+            "fixed_load": false,
+            "substitutions": [
+              "тяга верхнего блока"
+            ]
+          },
+          {
+            "exercise": "румынская тяга",
+            "sets": 3,
+            "reps_min": 6,
+            "reps_max": 8,
+            "target_rir": 3,
+            "rest_sec": 120,
+            "load_kg": 80,
+            "fixed_load": false,
+            "substitutions": [
+              "тяга с плинтов"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B — силовая (тяга + жим)",
+        "exercises": [
+          {
+            "exercise": "становая",
+            "sets": 4,
+            "reps_min": 3,
+            "reps_max": 4,
+            "target_rir": 2,
+            "rest_sec": 210,
+            "load_kg": 120,
+            "fixed_load": false,
+            "substitutions": [
+              "становая с плинтов"
+            ]
+          },
+          {
+            "exercise": "жим лёжа",
+            "sets": 3,
+            "reps_min": 5,
+            "reps_max": 6,
+            "target_rir": 3,
+            "rest_sec": 180,
+            "load_kg": 75,
+            "fixed_load": false,
+            "substitutions": [
+              "жим гантелей лёжа"
+            ]
+          },
+          {
+            "exercise": "подтягивания с весом",
+            "sets": 2,
+            "reps_min": 5,
+            "reps_max": 6,
+            "target_rir": 3,
+            "rest_sec": 150,
+            "load_kg": 15,
+            "fixed_load": false,
+            "substitutions": [
+              "тяга верхнего блока"
+            ]
+          },
+          {
+            "exercise": "жим стоя",
+            "sets": 3,
+            "reps_min": 6,
+            "reps_max": 8,
+            "target_rir": 3,
+            "rest_sec": 120,
+            "load_kg": 45,
+            "fixed_load": false,
+            "substitutions": [
+              "жим гири стоя"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C — короткая взрывная",
+        "exercises": [
+          {
+            "exercise": "выпрыгивания на тумбу",
+            "sets": 2,
+            "reps_min": 3,
+            "reps_max": 3,
+            "target_rir": null,
+            "rest_sec": 90,
+            "load_kg": null,
+            "fixed_load": false,
+            "substitutions": [
+              "прыжки в глубину с тумбы"
+            ]
+          },
+          {
+            "exercise": "бросок медбола вверх",
+            "sets": 2,
+            "reps_min": 3,
+            "reps_max": 3,
+            "target_rir": null,
+            "rest_sec": 90,
+            "load_kg": 5,
+            "fixed_load": true,
+            "substitutions": [
+              "бросок медбола в стену"
+            ]
+          },
+          {
+            "exercise": "рывок гири 24 кг",
+            "sets": 2,
+            "reps_min": 3,
+            "reps_max": 3,
+            "target_rir": null,
+            "rest_sec": 90,
+            "load_kg": 24,
+            "fixed_load": true,
+            "substitutions": [
+              "махи гирей 24 кг"
+            ]
+          },
+          {
+            "exercise": "жим лёжа с паузой",
+            "sets": 2,
+            "reps_min": 3,
+            "reps_max": 3,
+            "target_rir": 3,
+            "rest_sec": 120,
+            "load_kg": 70,
+            "fixed_load": false,
+            "substitutions": [
+              "жим лёжа со штангой"
+            ]
+          }
+        ]
+      }
+    ],
+    "evidence_ids": [
+      "ACSM_2026_RT",
+      "PELLAND_2026_VOLUME_FREQUENCY",
+      "ROBINSON_2024_RIR",
+      "GRGIC_2018_REST",
+      "CLEMENTE_2023_PLYOMETRIC",
+      "HELGESTAD_2021_VELOCITY_LOSS",
+      "NUNES_2021_EXERCISE_ORDER",
+      "SCHUMANN_2022_CONCURRENT",
+      "VARELA_2025_ACUTE_FATIGUE"
+    ]
+  },
+  "failed_actions": 1,
+  "total_actions": 20,
+  "safety_violations": [],
+  "schedule_violations": [],
+  "invalid_evidence_ids": [],
+  "excessive_program_days": [],
+  "program_quality_violations": []
+}

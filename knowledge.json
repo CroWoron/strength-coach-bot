@@ -1,0 +1,222 @@
+[
+  {
+    "id": "ACSM_2026_RT",
+    "title": "ACSM Resistance Training Prescription Position Stand",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/",
+    "type": "position_stand",
+    "scope": "Healthy adults; general resistance training outcomes, not boxing-specific programming.",
+    "summary": "Strength is generally supported by heavier loads, full range of motion, multiple sets and regular practice. Power work commonly uses moderate loads with low-to-moderate volume.",
+    "limitations": "Population-level guidance; it does not prescribe an individualized weekly plan or medical care.",
+    "tags": ["strength", "power", "frequency", "load", "volume"]
+  },
+  {
+    "id": "PELLAND_2026_VOLUME_FREQUENCY",
+    "title": "Resistance training dose-response meta-regression",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41343037/",
+    "type": "systematic_review_meta_regression",
+    "scope": "Resistance training volume and frequency across study populations.",
+    "summary": "Higher volume and frequency can support strength gains with diminishing returns; frequency is partly a way to distribute volume and movement practice.",
+    "limitations": "Does not define the best schedule for one boxer and should not justify adding days without recovery data.",
+    "tags": ["strength", "volume", "frequency", "diminishing returns"]
+  },
+  {
+    "id": "ROBINSON_2024_RIR",
+    "title": "Proximity to failure and resistance training adaptations",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38970765/",
+    "type": "meta_regression",
+    "scope": "Resistance training proximity to failure, strength and hypertrophy.",
+    "summary": "Strength improvements occur across a broad range of repetitions in reserve; training every set to failure is not required.",
+    "limitations": "The exact dose-response remains uncertain; a fixed RIR target is still a configurable heuristic.",
+    "tags": ["rir", "rpe", "failure", "strength", "hypertrophy"]
+  },
+  {
+    "id": "HUANG_2025_AUTOREGULATION",
+    "title": "Autoregulated resistance training for maximal strength enhancement",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40791980/",
+    "type": "systematic_review_network_meta_analysis",
+    "scope": "APRE, RPE and velocity-based approaches for maximal strength.",
+    "summary": "Autoregulated approaches can be effective for maximal strength and may outperform fixed percentage-based loading in some comparisons.",
+    "limitations": "Published protocols do not validate this bot's exact 2.5-5 percent adjustment rules.",
+    "tags": ["autoregulation", "apre", "rpe", "velocity", "strength"]
+  },
+  {
+    "id": "ZOURDOS_2016_RIR_SCALE",
+    "title": "RIR-based RPE scale for resistance training",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26049792/",
+    "type": "validation_study",
+    "scope": "Resistance-trained squatters and perceived repetitions in reserve.",
+    "summary": "RPE anchored to repetitions in reserve is a practical way to communicate effort during resistance exercise.",
+    "limitations": "RIR accuracy varies by person, exercise and experience and should be calibrated over time.",
+    "tags": ["rir", "rpe", "effort", "autoregulation"]
+  },
+  {
+    "id": "SAW_2016_MONITORING",
+    "title": "Monitoring athlete training response using subjective measures",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26423706/",
+    "type": "systematic_review",
+    "scope": "Subjective and objective monitoring of athlete response to training load.",
+    "summary": "Subjective wellbeing measures can be sensitive and useful for tracking changes within an athlete.",
+    "limitations": "Subjective fatigue or soreness is context, not a standalone diagnosis of overtraining.",
+    "tags": ["fatigue", "sleep", "soreness", "monitoring", "recovery"]
+  },
+  {
+    "id": "SCHUMANN_2022_CONCURRENT",
+    "title": "Compatibility of concurrent aerobic and strength training",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8891239/",
+    "type": "systematic_review_meta_analysis",
+    "scope": "Concurrent aerobic and strength training; not specifically contact boxing or sparring.",
+    "summary": "Concurrent training does not necessarily impair maximal strength or hypertrophy, while explosive strength can be more sensitive to interference and scheduling.",
+    "limitations": "Boxing combines skill, intervals and contact; direct boxing-specific conclusions are an extrapolation.",
+    "tags": ["boxing", "concurrent", "interference", "power", "scheduling"]
+  },
+  {
+    "id": "GRGIC_2018_REST",
+    "title": "Effects of rest interval duration in resistance training",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28933024/",
+    "type": "systematic_review",
+    "scope": "Rest intervals and chronic strength development.",
+    "summary": "Longer rest intervals, often above two minutes, can better support maximal strength in trained individuals.",
+    "limitations": "Rest should still reflect exercise, load, time constraints and the athlete's response.",
+    "tags": ["rest", "strength", "fatigue", "sets"]
+  },
+  {
+    "id": "PARQ_PLUS_OFFICIAL",
+    "title": "PAR-Q+ official pre-participation screening pathway",
+    "url": "https://eparmedx.com/",
+    "type": "official_screening_resource",
+    "scope": "Pre-participation screening and referral pathway.",
+    "summary": "The official pathway helps determine whether further exercise-professional or healthcare review is appropriate before increasing physical activity.",
+    "limitations": "Do not copy, alter or embed the protected questionnaire without permission; link to the official current version.",
+    "tags": ["safety", "screening", "health", "referral"]
+  },
+  {
+    "id": "GRGIC_2022_FAILURE",
+    "title": "Effects of resistance training performed to repetition failure or non-failure",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33497853/",
+    "type": "systematic_review_meta_analysis",
+    "scope": "Resistance training to failure versus non-failure for strength and hypertrophy.",
+    "summary": "Training to momentary failure is not required for strength development when training volume is considered.",
+    "limitations": "This does not define one ideal reserve target for every exercise, athlete or phase.",
+    "tags": ["strength", "failure", "fatigue", "rir"]
+  },
+  {
+    "id": "CLEMENTE_2023_PLYOMETRIC",
+    "title": "Effects of combined upper- and lower-limb plyometric training",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36612806/",
+    "type": "systematic_review_meta_analysis",
+    "scope": "Healthy participants performing combined upper- and lower-body plyometric training.",
+    "summary": "Plyometric training can improve power-related performance, speed and strength; explosive work should emphasize high-quality repetitions rather than fatigue.",
+    "limitations": "Exercise choice and dose still need to match experience, equipment, sport load and joint tolerance.",
+    "tags": ["power", "plyometric", "speed", "jump", "throw", "exercise_selection"]
+  },
+  {
+    "id": "HELGESTAD_2021_VELOCITY_LOSS",
+    "title": "Effects of velocity loss in strength training",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33547265/",
+    "type": "randomized_trial",
+    "scope": "Velocity-loss thresholds during resistance training in trained rowers.",
+    "summary": "Limiting within-set velocity loss can preserve movement quality and support strength development with less fatigue than training to failure.",
+    "limitations": "Without a velocity sensor, visible slowing is only a practical proxy and should not be presented as measured power.",
+    "tags": ["velocity", "power", "strength", "fatigue", "quality_stop"]
+  },
+  {
+    "id": "HACKETT_2021_RIR_ACCURACY",
+    "title": "Accuracy of repetitions-in-reserve estimation",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33337690/",
+    "type": "validation_study",
+    "scope": "Perceived repetitions remaining across different resistance-training loads.",
+    "summary": "Reserve estimates are a useful subjective autoregulation signal but tend to be more accurate with heavier than lighter loads.",
+    "limitations": "Treat the estimate as one input alongside completed work, technique, pain and perceived difficulty, not as objective truth.",
+    "tags": ["rir", "accuracy", "autoregulation", "effort"]
+  },
+  {
+    "id": "LOPEZ_2021_LOAD_EFFECTS",
+    "title": "Resistance training load effects on muscle hypertrophy and strength gain",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35015560/",
+    "type": "systematic_review_network_meta_analysis",
+    "scope": "Low, moderate and high resistance-training loads with volume load equated.",
+    "summary": "Higher loads favor gains in one-repetition maximum strength, while hypertrophy can be similar across a wider range of loads when training volume is matched.",
+    "limitations": "This does not establish a universal maximum number of sets or make one light set equivalent to one heavy set.",
+    "tags": ["strength", "load", "intensity", "volume", "sets"]
+  },
+  {
+    "id": "SCOTT_2016_RESISTANCE_MONITORING",
+    "title": "Monitoring exercise load in resistance training",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26780346/",
+    "type": "review",
+    "scope": "Methods for describing and monitoring resistance-training dose.",
+    "summary": "Resistance-training dose depends on several interacting variables, including load, volume, repetitions, rest and movement velocity; no single measure fully describes it.",
+    "limitations": "Tonnage and raw set count are useful descriptors but cannot by themselves quantify fatigue or training stimulus.",
+    "tags": ["monitoring", "volume", "sets", "tonnage", "intensity", "velocity"]
+  },
+  {
+    "id": "NUNES_2021_EXERCISE_ORDER",
+    "title": "Influence of resistance exercise order on strength and hypertrophy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32077380/",
+    "type": "systematic_review_meta_analysis",
+    "scope": "Exercise order in resistance-training sessions and its effect on strength and hypertrophy.",
+    "summary": "Strength gains tend to be greatest for exercises performed near the beginning of a session, supporting placement of the priority lift first.",
+    "limitations": "Exercise order evidence does not create a universal prohibition on combining particular lifts in one session.",
+    "tags": ["exercise_order", "priority", "strength", "fatigue", "programming"]
+  },
+  {
+    "id": "VARELA_2025_ACUTE_FATIGUE",
+    "title": "Influence of proximity to failure, relative intensity, and volume on fatigue after resistance training",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40644670/",
+    "type": "systematic_review",
+    "scope": "Acute voluntary-performance, neuromuscular and perceived fatigue after resistance training.",
+    "summary": "Set duration, proximity to failure, total volume and training density are important fatigue determinants, so a session must be evaluated as a combined dose.",
+    "limitations": "The literature does not provide one validated session-fatigue score or a fixed list of exercise combinations that must be banned.",
+    "tags": ["fatigue", "volume", "intensity", "failure", "session", "programming"]
+  },
+  {
+    "id": "BELCHER_2019_LIFT_RECOVERY",
+    "title": "Recovery after squat, bench press and deadlift",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30779596/",
+    "type": "controlled_trial",
+    "scope": "Recovery after four sets to failure at 80% 1RM in twelve well-trained men.",
+    "summary": "Recovery and muscle-damage responses were broadly similar across squat, bench press and deadlift; deadlift was not uniquely more damaging.",
+    "limitations": "Small male sample and one failure-based protocol; this does not make all exercises or doses equally fatiguing.",
+    "tags": ["fatigue", "recovery", "deadlift", "squat", "bench_press", "cns"]
+  },
+  {
+    "id": "CID_CALFUCURA_2023_COMBAT_STRENGTH",
+    "title": "Strength training in Olympic combat sports athletes",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36834211/",
+    "type": "systematic_review",
+    "scope": "Strength-training interventions in judo, boxing, karate, wrestling and fencing athletes.",
+    "summary": "Appropriately programmed strength training improved strength, power and some sport-specific outcomes in Olympic combat athletes.",
+    "limitations": "Interventions and sports were heterogeneous; the review does not identify a universal best exercise list for boxing.",
+    "tags": ["boxing", "combat_sports", "strength", "power", "exercise_selection"]
+  },
+  {
+    "id": "AFONSO_2023_STRENGTH_ROM",
+    "title": "Resistance training and range of motion",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36622555/",
+    "type": "systematic_review_meta_analysis",
+    "scope": "Chronic resistance training and joint range of motion in healthy participants.",
+    "summary": "Resistance training with external loads improved range of motion and was not inferior to stretching for that outcome.",
+    "limitations": "Results do not mean every partial-range program preserves every boxing-specific mobility requirement.",
+    "tags": ["mobility", "range_of_motion", "strength", "stiffness", "boxing"]
+  },
+  {
+    "id": "BITTAR_2020_MUSCLE_STIFFNESS",
+    "title": "Resistance exercise and muscle stiffness",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32533552/",
+    "type": "systematic_review_meta_analysis",
+    "scope": "Acute and chronic changes in ultrasound-measured muscle stiffness after resistance exercise.",
+    "summary": "Muscle stiffness rose briefly after a session but was not increased by long-term resistance training in the available studies.",
+    "limitations": "Few studies were available and ultrasound stiffness is not the same as boxing movement quality.",
+    "tags": ["stiffness", "mobility", "recovery", "strength"]
+  },
+  {
+    "id": "PAREJA_BLANCO_2020_RECOVERY",
+    "title": "Recovery from resistance exercise with different set configurations",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30036284/",
+    "type": "controlled_trial",
+    "scope": "Bench press and squat protocols differing in repetitions completed relative to possible repetitions.",
+    "summary": "Sets taken to failure, especially at higher repetitions, produced greater fatigue and slower neuromuscular recovery.",
+    "limitations": "This does not define one reserve target for every athlete, lift or training phase.",
+    "tags": ["fatigue", "failure", "velocity_loss", "recovery", "boxing"]
+  }
+]
